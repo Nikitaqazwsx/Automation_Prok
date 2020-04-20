@@ -23,11 +23,17 @@ public class LandingPageTest extends DriverTest {
       LandingPage landingPage = new LandingPage();
       
       //Verify the titles
-      if(landingPage.getTitle().equals(landingPage.getTitle())) {
+     /* if(landingPage.getTitle().equals(landingPage.getTitle())) {
          BasePage.test.pass("Title Matched - Test Passes");
       }else {
     	  BasePage.test.pass("Title doesn't match - Test Failed");
-      }
+      }*/
+      
+      if(landingPage.getTitle().equals("My Store")) {
+          BasePage.test.pass("Title Matched - Test Passes");
+       }else {
+     	  BasePage.test.pass("Title doesn't match - Test Failed");
+       }
       
       //Navigate to Product Search page
       pr=landingPage.searchProduct("Dress");
@@ -44,11 +50,11 @@ public class LandingPageTest extends DriverTest {
 	  LandingPage landingPage = new LandingPage();
       
       //Verify the titles
-      if(landingPage.getTitle().equals(landingPage.getTitle())) {
+      /*if(landingPage.getTitle().equals(landingPage.getTitle())) {
          BasePage.test.pass("Title Matched - Test Passes");
       }else {
     	  BasePage.test.pass("Title doesn't match - Test Failed");
-      }
+      }*/
       
       //Navigate to Product Search page
       ProductSearchPage pr=landingPage.searchProduct("Dress");
@@ -66,12 +72,12 @@ public class LandingPageTest extends DriverTest {
 
 	  LandingPage landingPage = new LandingPage();
       
-      //Verify the titles
+      /*//Verify the titles
       if(landingPage.getTitle().equals(landingPage.getTitle())) {
          BasePage.test.pass("Title Matched - Test Passes");
       }else {
     	  BasePage.test.pass("Title doesn't match - Test Failed");
-      }
+      }*/
       
       //Navigate to Product Search page
       ProductSearchPage pr=landingPage.searchProduct("Dress");

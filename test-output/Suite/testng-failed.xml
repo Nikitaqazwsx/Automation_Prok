@@ -7,9 +7,9 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
+          <include name="searchAProduct"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="ModifyingCartItems"/>
         </methods>
       </class> <!-- automationPractise.LandingPageTest -->
     </classes>

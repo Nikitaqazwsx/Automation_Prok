@@ -11,7 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import pages.BasePage;
 
-public class Humpty extends BasePage{
+public class Screenshots extends BasePage{
 
 	public static String takeScreenShot(String screenShotName) throws IOException {
 	        

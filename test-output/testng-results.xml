@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-19T10:30:12Z" name="Default suite" finished-at="2020-04-19T10:34:09Z" duration-ms="237111">
+  <suite started-at="2020-04-20T06:52:07Z" name="Suite" finished-at="2020-04-20T06:54:04Z" duration-ms="116901">
     <groups>
     </groups>
-    <test started-at="2020-04-19T10:30:12Z" name="Default test" finished-at="2020-04-19T10:34:09Z" duration-ms="237111">
+    <test started-at="2020-04-20T06:52:07Z" name="Test" finished-at="2020-04-20T06:54:04Z" duration-ms="116901">
       <class name="automationPractise.LandingPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:00:11Z" name="beforeSuite" finished-at="2020-04-19T16:00:12Z" duration-ms="740" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:06Z" name="beforeSuite" finished-at="2020-04-20T12:22:07Z" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:00:12Z" name="beforeMethod" finished-at="2020-04-19T16:00:48Z" duration-ms="36058" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:07Z" name="beforeMethod" finished-at="2020-04-20T12:22:25Z" duration-ms="18327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AddingToACart()[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:00:48Z" name="AddingToACart" finished-at="2020-04-19T16:01:21Z" duration-ms="33311" status="PASS">
+        <test-method signature="AddingToACart()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:25Z" name="AddingToACart" finished-at="2020-04-20T12:22:36Z" duration-ms="10471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddingToACart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:01:21Z" name="afterMethod" finished-at="2020-04-19T16:01:21Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AddingToACart status=SUCCESS method=LandingPageTest.AddingToACart()[pri:0, instance:automationPractise.LandingPageTest@54a7079e] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:36Z" name="afterMethod" finished-at="2020-04-20T12:22:36Z" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:01:21Z" name="beforeMethod" finished-at="2020-04-19T16:01:59Z" duration-ms="37785" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:36Z" name="beforeMethod" finished-at="2020-04-20T12:22:49Z" duration-ms="12574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,22 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ModifyingCartItems()[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:01:59Z" name="ModifyingCartItems" finished-at="2020-04-19T16:03:15Z" duration-ms="76392" status="PASS">
+        <test-method signature="ModifyingCartItems()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:22:49Z" name="ModifyingCartItems" finished-at="2020-04-20T12:23:36Z" duration-ms="46940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ModifyingCartItems -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:03:15Z" name="afterMethod" finished-at="2020-04-19T16:03:15Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ModifyingCartItems status=SUCCESS method=LandingPageTest.ModifyingCartItems()[pri:0, instance:automationPractise.LandingPageTest@54a7079e] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:23:36Z" name="afterMethod" finished-at="2020-04-20T12:23:38Z" duration-ms="2263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:03:15Z" name="beforeMethod" finished-at="2020-04-19T16:03:43Z" duration-ms="27807" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:23:38Z" name="beforeMethod" finished-at="2020-04-20T12:23:57Z" duration-ms="19513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchAProduct()[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:03:43Z" name="searchAProduct" finished-at="2020-04-19T16:04:09Z" duration-ms="25457" status="FAIL">
+        <test-method signature="searchAProduct()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:23:57Z" name="searchAProduct" finished-at="2020-04-20T12:24:02Z" duration-ms="4314" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Results shown on Page does not Contain the seach Keyword]]>
@@ -82,7 +68,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Results shown on Page does not Contain the seach Keyword
 	at org.testng.Assert.fail(Assert.java:94)
-	at automationPractise.LandingPageTest.searchAProduct(LandingPageTest.java:36)
+	at automationPractise.LandingPageTest.searchAProduct(LandingPageTest.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,22 +100,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAProduct -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:04:09Z" name="afterMethod" finished-at="2020-04-19T16:04:09Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchAProduct status=FAILURE method=LandingPageTest.searchAProduct()[pri:0, instance:automationPractise.LandingPageTest@54a7079e] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:24:02Z" name="afterMethod" finished-at="2020-04-20T12:24:04Z" duration-ms="2208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:automationPractise.LandingPageTest@54a7079e]" started-at="2020-04-19T16:04:10Z" name="afterSuite" finished-at="2020-04-19T16:04:12Z" duration-ms="2575" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:automationPractise.LandingPageTest@4310d43]" started-at="2020-04-20T12:24:04Z" name="afterSuite" finished-at="2020-04-20T12:24:06Z" duration-ms="1418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- automationPractise.LandingPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
